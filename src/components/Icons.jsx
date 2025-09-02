@@ -35,7 +35,7 @@ const frame = [
   { url: 'logos/dj.png', name: 'Django' },
 ];
 
-export default function SkillsSection() {
+export default function Icons() {
   return (
     <div
       className="min-h-screen w-screen text-white relative scroll-mt-20 px-10"
