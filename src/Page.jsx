@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react' 
 import NavBar from './components/NavBar' 
 import { FaGithub, FaLinkedin } from 'react-icons/fa' 
-import Icons from './components/icons' 
+import Icons from './components/Icons' 
 import Projects from './components/Projects' 
 import styled from "styled-components"; 
 import SpiningSphere from "./SpiningSphere" 
