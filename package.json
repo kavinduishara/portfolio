@@ -9,8 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"npm run deploy"
+    "predeploy": "npm run build",
+    "deploy": "npm run deploy"
   },
   "dependencies": {
     "@react-three/drei": "^10.6.1",
@@ -22,6 +22,7 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-icons": "^5.5.0",
+    "react-intersection-observer": "^9.16.0",
     "styled-components": "^6.1.19",
     "three": "^0.179.1"
   },
