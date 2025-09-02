@@ -1,5 +1,6 @@
 {
   "name": "portfolio",
+  "homepage": "https://github.com/kavinduishara/portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,13 +8,16 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy":"npm run build",
+    "deploy":"npm run deploy"
   },
   "dependencies": {
     "@react-three/drei": "^10.6.1",
     "@react-three/fiber": "^9.3.0",
     "@react-three/postprocessing": "^3.0.4",
     "@tailwindcss/vite": "^4.1.11",
+    "gh-pages": "^6.3.0",
     "postprocessing": "^6.37.7",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
